@@ -24,7 +24,7 @@
             <td>Photo</td>
             <td>
                 <div class="gap-3 d-flex">
-                    <a href="#" class="btn btn-info">Edit</a>
+                    <a href="{{route('addPage')}}" class="btn btn-info">Edit</a>
                     <a href="#" class="btn btn-danger">Delete</a>
                 </div>
             </td>
