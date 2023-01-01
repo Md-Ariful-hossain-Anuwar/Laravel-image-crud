@@ -3,7 +3,7 @@
     
 <div class="container">
     <div class="d-flex justify-content-between">
-        <a href="#" class="btn btn-primary">Add Data</a>
+        <a href="{{route('addDataPage')}}" class="btn btn-primary">Add Data</a>
         <a href="#" class="btn btn-info">Dowload All data</a>
     </div>
     <table class="table">

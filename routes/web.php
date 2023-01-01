@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\addDataController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,3 +15,4 @@ use App\Http\Controllers\HomeController;
 |
 */
 Route::get('/',[HomeController::class,'Home'])->name('Home');
+Route::get('/addData',[addDataController::class,'addData'])->name('addDataPage');
