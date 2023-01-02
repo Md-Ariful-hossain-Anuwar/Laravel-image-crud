@@ -18,3 +18,4 @@ use App\Http\Controllers\addPageController;
 Route::get('/',[HomeController::class,'Home'])->name('Home');
 Route::get('/addData',[addDataController::class,'addData'])->name('addDataPage');
 Route::get('/addPage',[addPageController::class,'addPage'])->name('addPage');
+Route::post('/studentData',[addDataController::class,'studentData'])->name('studentData');

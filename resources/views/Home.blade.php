@@ -25,7 +25,7 @@
             <td>
                 <div class="gap-3 d-flex">
                     <a href="{{route('addPage')}}" class="btn btn-info">Edit</a>
-                    <a href="#" class="btn btn-danger">Delete</a>
+                    <a href="#" class="btn btn-danger" onclick="return confirm('Are you sure you want to Delete')">Delete</a>
                 </div>
             </td>
           </tr>
